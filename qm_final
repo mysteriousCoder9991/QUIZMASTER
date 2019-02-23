@@ -1,0 +1,950 @@
+#include<stdio.h>
+#include<string.h>
+#include<stdlib.h>
+#include<conio.h>
+#define F fflush(stdin);
+#define A printf("\n\t\t\tYOUR ANSWER: ");
+#define C printf("\t\t\t CORRECT ANSWER ");
+
+void cr3(int pt)
+{
+    printf("\n\n\n\t\t\tWELCOME TO 3RD ROUND!!!!!\n");
+	printf("\n\t\t\tHERE EACH QUESTION CARRIES 15 POINTS\n\n");
+    char a1,a2,a3,a4,a5;
+	int po=0;
+	printf("\n\t\t\tQ1.WHO IS CREDITED WITH INVENTING THE 1ST MECHANICAL COMPUTER??\n");
+	printf("\n\t\t\tA. WILLIAM OUGHTRED\t B.KONRAD ZUSE\n");
+	printf("\n\t\t\tC. CHARLES BABBAGE \t D.NONE OF THE ABOVE\n");
+	A
+	F
+	scanf("%c",&a1);
+	if(a1=='C'||a1=='c')
+	{
+		C
+		pt=pt+15;
+		po=po+15;
+	}
+	else
+		printf("\t\tOPPS!!WRONG ANSWER..OPTION 'C' IS THE CORRECT ANSWER\n\n");
+	printf("\n\t\t\tQ2.COMPUTER HARD DISK WAS FIRST INTRODUCED IN 1956 BY? \n");
+	printf("\n\t\t\tA. DELL \t B.IBM \n");
+	printf("\n\t\t\tC. APPLE\t D.MICROSOFT\n");
+	A
+	F
+	scanf("%c",&a2);
+	if(a2=='B'||a1=='b')
+	{
+		C
+		pt=pt+15;
+		po=po+15;
+	}
+	else
+		printf("\t\tOPPS!!WRONG ANSWER..OPTION 'B' IS THE CORRECT ANSWER\n\n");
+	printf("\n\t\t\tQ3.IN COMPUTER WORLD,TROJAN REFERS RO?\n");
+	printf("\n\t\t\tA. VIRUS  \t B. WORM\n");
+	printf("\n\t\t\tC. MALWARE\t D. SPYWARE\n");
+	A
+	F
+	scanf("%c",&a3);
+	if(a3=='C'||a3=='c')
+	{
+        C
+		pt=pt+15;
+		po=po+15;
+	}
+	else
+		printf("\t\tOPPS!!WRONG ANSWER..OPTION 'C' IS THE CORRECT ANSWER\n\n");
+	printf("\n\t\t\tQ4.WHICH PROTOCOL IS USED TO SEND E-MAIL?\n");
+	printf("\n\t\t\tA. POP3\t B.SMTP\n");
+	printf("\n\t\t\tC. HTTP\t D.SSH\n");
+	A
+	F
+	scanf("%c",&a4);
+	if(a4=='A'||a4=='a')
+	{
+		C
+		pt=pt+15;
+		po=po+15;
+	}
+	else
+		printf("\t\tOPPS!!WRONG ANSWER..OPTION 'A IS THE CORRECT ANSWER\n\n");
+	printf("\n\t\t\tQ5.THE MAXIMUM NUMBER OF ROWS SUPPORTED BY EXCEL 2007 SPREADSHEET IS'?\n");
+	printf("\n\t\t\tA. 9,68,576 \t B.10,48,576\n");
+	printf("\n\t\t\tC. 13,42,554\t D.12,15,857 \n");
+	A
+	F
+	scanf("%c",&a5);
+	if(a5=='B'||a5=='b')
+	{
+		C
+		pt=pt+15;
+		po=po+15;
+	}
+	else
+		printf("\t\tOPPS!!WRONG ANSWER..OPTION 'B' IS THE CORRECT ANSWER\n\n");
+	printf("\n\n\t\tYOU HAVE COMPLETED 3RD ROUND OF COMPUTER TECHNOLOGIES...\n");
+	printf("\t\tYOUR TOTAL POINT FOR THIS ROUND IS= %d\n",po);
+	printf("\t\tYOUR TOTAL POINT IS= %d\n",pt);
+	if(po<50)
+		printf("\t\t\tYOU SCORED VERY LESS POINTS IN THIS ROUND!!!\n");
+	else
+		printf("\t\t\tGOOD!!YOU SCORED HIGH\n");
+	printf("\t\t\tYOU HAVE COMPLETED YOUR QUIZ\n");
+	printf("\t\t\tTHANK YOU FOR PARTICIPATING!!!!");
+}
+
+void cr2(int pt)
+{
+    printf("\n\n\n\t\t\tWELCOME TO 2ND ROUND!!!!!\n");
+	printf("\n\t\t\tHERE EACH QUESTION CARRIES 10 POINTS");
+	printf("\n\t\t\tAND YOU NEED TO SCORE MINIMUM 15 POINTS");
+	printf("\n\t\t\tTO QUALIFY TO 3RD ROUND\n");
+	printf("\n\t\t\tLET'S START\n\n");
+    char a1,a2,a3;
+	int po=0;
+	printf("\n\t\t\tQ1.IN WHAT YEAR WAS THE FIRST APPLE COMPUTER RELEASED??\n");
+	printf("\n\t\t\tA. 1974\t B. 1956\n");
+	printf("\n\t\t\tC. 1976\t D. NONE OF THE ABOVE\n");
+	A
+    F
+    scanf("%c",&a1);
+	if(a1=='C'||a1=='c')
+	{
+		C
+		pt=pt+10;
+		po=po+10;
+	}
+	else
+		printf("\t\t\tOPPS!!WRONG ANSWER..OPTION 'C' IS THE CORRECT ANSWER\n\n");
+	printf("\n\t\t\tQ2.THE COMPANIES HP,MICROSOFT AND APPLE WERE ALL STARTED IN WHAT??\n");
+	printf("\n\t\t\tA. ROOM  \t B. GARDEN\n");
+	printf("\n\t\t\tC. GARAGE\t D. OFFICE\n");
+	A
+	F
+	scanf("%c",&a2);
+	if(a2=='C'||a1=='c')
+	{
+		C
+		pt=pt+10;
+		po=po+10;
+	}
+	else
+        printf("OPPS!!WRONG ANSWER..OPTION 'C' IS THE CORRECT ANSWER\n\n");
+	printf("\n\t\t\tQ3.WITH OVER 17 MILLION UNITS PRODUCED,WHAT WAS THE HIGHEST SELLING MODEL OF PERSONAL COMPUTER?\n");
+	printf("\n\t\t\tA. OLIVETTI PROGRAMMA 101\t B. PET\n");
+	printf("\n\t\t\tC. DATAPOINT 2200        \t D. THE COMMODORE 64\n");
+    A
+	F
+    scanf("%c",&a3);
+	if(a3=='D'||a3=='d')
+	{
+		C
+		pt=pt+10;
+		po=po+10;
+	}
+	else
+		printf("\t\t\tOPPS!!WRONG ANSWER..OPTION 'D' IS THE CORRECT ANSWER\n\n");
+	printf("\n\n\t\t\tYOU HAVE COMPLETED 2ND ROUND OF COMPUTER TECHNOLOGIES...\n");
+	printf("\t\t\tYOUR TOTAL POINT FOR THIS ROUND IS= %d\n",po);
+	printf("\t\t\tYOUR TOTAL POINT IS= %d\n",pt);
+	if(po<15)
+		printf("\t\t\tSORRY!!YOU ARE DISQUALIFIED");
+	else
+	{
+		printf("\t\t\tCONGRATS!!YOU ARE QUALIFIED FOR THE THIRD ROUND");
+		cr3(pt);
+	}
+}
+
+void cr1()
+{
+    printf("\n\n\n\t\t\tWELCOME TO 1ST ROUND!!!!!\n");
+	printf("\n\t\t\tHERE EACH QUESTION CARRIES 5 POINTS");
+	printf("\n\t\t\tAND YOU NEED TO SCORE MINIMUM 10 POINTS");
+	printf("\n\t\t\tTO QUALIFY TO 2ND ROUND\n");
+	char a1,a2,a3,a4;
+	int pt=0;
+	printf("\n\t\t\tQ1.ON THE POPULAR SOCIAL WEBSITE REDDIT,WHAT DOES 'AMA' STANDS FOR??\n");
+	printf("\n\t\t\tA.AGAINST MEDICAL ADVICE\tB.ACCRA METROPOLITAN ASSEMBLY\n");
+	printf("\n\t\t\tC.ASK ME ANYTHING       \tD.NONE OF THE ABOVE\n");
+	A
+	F
+	scanf("%c",&a1);
+	if(a1=='C'||a1=='c')
+    {
+        C
+		pt=pt+5;
+	}
+	else
+		printf("\t\t\tOPPS!!!WRONG ANSWER!!OPTION'C' IS THE CORRECT ANSWER\n\n");
+	printf("\n\t\t\tQ2.CREATED IN 2009,WHAT WAS THE FIRST DECENTRALIZED CRYPTOCURRENCY?\n");
+	printf("\n\t\t\tA.RIPLLE\t B.BITCOIN\n");
+	printf("\n\t\t\tC.EOS   \t D.NEO \n");
+	A
+	F
+	scanf("%c",&a2);
+	if(a2=='B'||a1=='b')
+	{
+		C
+		pt=pt+5;
+	}
+	else
+		printf("\t\t\tOPPS!!WRONG ANSWER..OPTION 'B' IS THE CORRECT ANSWER\n\n");
+	printf("\n\t\t\tQ3.IN 1975 AN ENGINEER CREATED THE 1ST CAMERA FOR WHICH COMPANY?\n");
+	printf("\n\t\t\tA.KODAK\t B.NIKON\n");
+	printf("\n\t\t\tC.SONY \t D.CANON\n");
+	A
+	F
+	scanf("%c",&a3);
+	if(a3=='A'||a3=='a')
+	{
+		C
+        pt=pt+5;
+	}
+	else
+		printf("\t\t\tOPPS!!WRONG ANSWER..OPTION 'A' IS THE CORRECT ANSWER\n\n");
+	printf("\n\t\t\tQ4.NINTENDO COMPANY WAS FOUNDED IN WHICH COUNTRY?\n");
+	printf("\n\t\t\tA.NORTH KOREA\t B.JAPAN\n");
+	printf("\n\t\t\tC.SOUTH KOREA\t D.RUSSIA\n");
+	A
+	F
+	scanf("%c",&a4);
+	if(a4=='B'||a4=='b')
+	{
+		C
+		pt=pt+5;
+	}
+	else
+		printf("\t\t\tOPPS!!WRONG ANSWER..OPTION 'B' IS THE CORRECT ANSWER\n\n");
+	printf("\n\n\t\t\tYOU HAVE COMPLETED ROUND 1 OF COMPUTER TECNOLOGIES...\n");
+	printf("\t\t\tYOUR TOTAL POINT FOR THIS ROUND IS= %d\n",pt);
+	printf("\t\t\tYOUR TOTAL POINT IS= %d\n",pt);
+	if(pt<10)
+		printf("\t\t\tSORRY!!YOU ARE DISQUALIFIED");
+	else
+	{
+		printf("\t\t\tCONGRATS!!YOU ARE QUALIFIED FOR THE 2ND ROUND");
+		cr2(pt);
+	}
+}
+
+void mr3(int pt)
+{
+    printf("\n\n\n\t\t\tWELCOME TO 3RD ROUND!!!!!\n");
+	printf("\n\t\t\tHERE EACH QUESTION CARRIES 15 POINTS\n\n");
+    char a1,a2,a3,a4,a5;
+	int po=0;
+	printf("\n\t\t\tQ1.IN HOW MANY MOVIES SHAH RUKH KHAN WAS NAMED 'RAHUL'??\n");
+	printf("\n\t\t\tA. 3\t B.8\n");
+	printf("\n\t\t\tC. 9\t D.10\n");
+	A
+	F
+	scanf("%c",&a1);
+	if(a1=='C'||a1=='c')
+	{
+        C
+		pt=pt+15;
+		po=po+15;
+	}
+	else
+		printf("\t\t\tOPPS!!WRONG ANSWER..OPTION 'C' IS THE CORRECT ANSWER\n\n");
+	printf("\n\t\t\tQ2.WHAT WAS SALMAN KHAN'S DOG'S NAME IN 'HUM APKE HAIN KAUN'? \n");
+	printf("\n\t\t\tA. CHU CHU\t B.TUFFY \n");
+	printf("\n\t\t\tC. JIMMY  \t D. TOMMY\n");
+	A
+	F
+	scanf("%c",&a2);
+	if(a2=='B'||a1=='b')
+	{
+		C
+		pt=pt+15;
+		po=po+15;
+	}
+	else
+		printf("\t\t\tOPPS!!WRONG ANSWER..OPTION 'B' IS THE CORRECT ANSWER\n\n");
+	printf("\n\t\t\tQ3.WHO PLAYED THE LEADING ROLE IN'RAJA HARISHCHANDRA'?\n");
+	printf("\n\t\t\tA. VITAHL  \t B. PRITHVIRAJ KAPOOR\n");
+	printf("\n\t\t\tC. DD DABKE\t D. NONE OF THE ABOVE\n");
+	A
+	F
+	scanf("%c",&a3);
+	if(a3=='C'||a3=='c')
+	{
+		C
+		pt=pt+15;
+		po=po+15;
+	}
+	else
+		printf("\t\t\tOPPS!!WRONG ANSWER..OPTION 'C' IS THE CORRECT ANSWER\n\n");
+	printf("\n\t\t\tQ4.WHICH BOLLYWOOD FILM HAS THE HIGHEST NUMBER OF SONGS?\n");
+	printf("\n\t\t\tA. INDRA SABHA\t B.NEEL KAMAL\n");
+	printf("\n\t\t\tC. ALARM ARA  \t D.KISHAN KANAYA\n");
+	A
+	F
+	scanf("%c",&a4);
+	if(a4=='A'||a4=='a')
+	{
+		C
+		pt=pt+15;
+		po=po+15;
+	}
+	else
+		printf("\t\t\tOPPS!!WRONG ANSWER..OPTION 'A IS THE CORRECT ANSWER\n\n");
+	printf("\n\t\t\tQ5.WHO DIRECTED THE MOVIE 'DO BIGHA ZAMIN'?\n");
+	printf("\n\t\t\tA. GURU DUTT    \t B. BIMAL ROY\n");
+	printf("\n\t\t\tC. RITWIK GHATAK\t D.HRISHIKEAH MUKHERJEE \n");
+	A
+	F
+	scanf("%c",&a5);
+	if(a5=='B'||a5=='b')
+	{
+		C
+		pt=pt+15;
+		po=po+15;
+	}
+	else
+		printf("\t\t\tOPPS!!WRONG ANSWER..OPTION 'B' IS THE CORRECT ANSWER\n\n");
+	printf("\n\n\t\t\tYOU HAVE COMPLETED 3RD ROUND OF MOVIES...\n");
+	printf("\t\t\tYOUR TOTAL POINT FOR THIS ROUND IS= %d\n",po);
+	printf("\t\t\tYOUR TOTAL POINT IS= %d\n",pt);
+	if(po<50)
+		printf("\t\t\tYOU SCORED VERY LESS POINTS IN THIS ROUND!!!\n");
+	else
+		printf("\t\t\tGOOD!!YOU SCORED HIGH\n");
+	printf("\t\t\tYOU HAVE COMPLETED YOUR QUIZ\n");
+	printf("\t\t\tTHANK YOU FOR PARTICIPATING!!!!");
+}
+
+void mr2(int pt)
+{
+    printf("\n\n\n\t\t\tWELCOME TO 2ND ROUND!!!!!\n");
+	printf("\n\t\t\tHERE EACH QUESTION CARRIES 10 POINTS");
+	printf("\n\t\t\tAND YOU NEED TO SCORE MINIMUM 15 POINTS");
+	printf("\n\t\t\tTO QUALIFY TO 3RD ROUND\n");
+	printf("\n\t\t\tLET'S START\n\n");
+    char a1,a2,a3;
+	int po=0;
+	printf("\n\t\t\tQ1.WHO IS KNOWN AS THE FATHER OF INDIAN CINEMA??\n");
+	printf("\n\t\t\tA. SHAH RUKH KHAN  \t B. AMITABH BACCHAN\n");
+	printf("\n\t\t\tC. DADA SAHEB PHALKE\t D. NONE OF THE ABOVE\n");
+	A
+    F
+	scanf("%c",&a1);
+	if(a1=='C'||a1=='c')
+	{
+		C
+		pt=pt+10;
+		po=po+10;
+	}
+	else
+		printf("\t\t\tOPPS!!WRONG ANSWER..OPTION 'C' IS THE CORRECT ANSWER\n\n");
+	printf("\n\t\t\tQ2.THE 1ST INDIAN MOVIE TO CROSS RS.100 CRORE DOMESTICALLY IN INDIA??\n");
+	printf("\n\t\t\tA. KAL HO NA HO      \t B. VEER ZARA\n");
+	printf("\n\t\t\tC. HUM APKE HAIN KAUN\t D. VIVAH\n");
+	A
+	F
+	scanf("%c",&a2);
+	if(a2=='C'||a1=='c')
+	{
+		C
+		pt=pt+10;
+		po=po+10;
+	}
+	else
+		printf("\t\t\tOPPS!!WRONG ANSWER..OPTION 'C' IS THE CORRECT ANSWER\n\n");
+	printf("\n\t\t\tQ3.WHO WAS AWARDED AS BEST ACTOR OF 64TH NATIONAL FILM AWARDS?\n");
+	printf("\n\t\t\tA. SHAH RUKH KHAN\t B. RANBIR KAPOOR\n");
+	printf("\n\t\t\tC. SALMAN KHAN   \t D. AKSHAY KUMAR\n");
+	A
+	F
+	scanf("%c",&a3);
+	if(a3=='D'||a3=='d')
+	{
+		C
+		pt=pt+10;
+		po=po+10;
+	}
+	else
+		printf("\t\t\tOPPS!!WRONG ANSWER..OPTION 'D' IS THE CORRECT ANSWER\n\n");
+	printf("\n\n\t\t\tYOU HAVE COMPLETED 2ND ROUND OF MOVIES...\n");
+	printf("\t\t\tYOUR TOTAL POINT FOR THIS ROUND IS= %d\n",po);
+	printf("\t\t\tYOUR TOTAL POINT IS= %d\n",pt);
+	if(po<15)
+		printf("\t\t\tSORRY!!YOU ARE DISQUALIFIED");
+	else
+	{
+		printf("\t\t\tCONGRATS!!YOU ARE QUALIFIED FOR THE THIRD ROUND");
+		mr3(pt);
+	}
+}
+void mr1()
+{
+    printf("\n\n\n\t\t\tWELCOME TO 1ST ROUND!!!!!\n");
+	printf("\n\t\t\tHERE EACH QUESTION CARRIES 5 POINTS");
+	printf("\n\t\t\tAND YOU NEED TO SCORE MINIMUM 10 POINTS");
+	printf("\n\t\t\tTO QUALIFY TO 2ND ROUND\n");
+	char a1,a2,a3,a4;
+	int pt=0;
+	printf("\n\t\t\tQ1.IN INDIA FIRST FILM WAS SCREENED AT WHICH PLACE??\n");
+	printf("\n\t\t\tA.TAJ HOTEL,MUMBAI    \tB.OBEROI HOTEL,PUNE\n");
+	printf("\n\t\t\tC.WATSON HOTEL,MUMBAI\tD.FILM CITY,MUMBAI\n");
+	A
+	F
+	scanf("%c",&a1);
+	if(a1=='C'||a1=='c')
+	{
+		C
+		pt=pt+5;
+	}
+	else
+		printf("\t\t\tOPPS!!WRONG ANSWER..OPTION 'C' IS THE CORRECT ANSWER\n\n");
+	printf("\n\t\t\tQ2.WHAT WAS THE NAME OF THE FIRST CINEMA HALL IN INDIA\n");
+	printf("\n\t\t\tA.CAPITAL CINEMA HALL\t B.ELPHINSTONE PICTURE PALACE\n");
+	printf("\n\t\t\tC.EDWARD THEATER     \t D.ODENE CINEMA HALL \n");
+	A
+	F
+    scanf("%c",&a2);
+	if(a2=='B'||a1=='b')
+	{
+		C
+		pt=pt+5;
+	}
+	else
+		printf("\t\t\tOPPS!!WRONG ANSWER..OPTION 'B' IS THE CORRECT ANSWER\n\n");
+	printf("\n\t\t\tQ3.IN 'SHOLAY' WHAT WAS THE NAME OF BASANTI'S HORSE?\n");
+	printf("\n\t\t\tA.DHANNO\t B.DHARMA\n");
+	printf("\n\t\t\tC.ASHA  \t D.LEELA\n");
+	A
+	F
+	scanf("%c",&a3);
+	if(a3=='A'||a3=='a')
+	{
+        C
+		pt=pt+5;
+	}
+	else
+		printf("\t\t\tOPPS!!WRONG ANSWER..OPTION 'A' IS THE CORRECT ANSWER\n\n");
+	printf("\n\t\t\tQ4.THE CATCH-LINE'AMERICAN DREAM,INDIAN SOUL' WAS OF WHICH INDIAN FILM?\n");
+	printf("\n\t\t\tA.AMERICAN DESI     \t B.PARDES\n");
+	printf("\n\t\t\tC.AA AB LAUT CHALEIN\t D.INDIAN\n");
+	A
+    F
+	scanf("%c",&a4);
+	if(a4=='B'||a4=='b')
+	{
+		C
+		pt=pt+5;
+	}
+	else
+		printf("\t\t\tOPPS!!WRONG ANSWER..OPTION 'B' IS THE CORRECT ANSWER\n\n");
+	printf("\n\n\t\t\tYOU HAVE COMPLETED ROUND 1 OF MOVIES...\n");
+	printf("\t\t\tYOUR TOTAL POINT FOR THIS ROUND IS= %d\n",pt);
+	printf("\t\t\tYOUR TOTAL POINT IS= %d\n",pt);
+	if(pt<10)
+		printf("\t\t\tSORRY!!YOU ARE DISQUALIFIED");
+	else
+	{
+		printf("\t\t\tCONGRATS!!YOU ARE QUALIFIED FOR THE 2ND ROUND");
+		mr2(pt);
+	}
+}
+void spr3(int pt)
+{
+    printf("\n\n\n\t\t\tWELCOME TO 3RD ROUND!!!!!\n");
+	printf("\n\t\t\tHERE EACH QUESTION CARRIES 15 POINTS");
+	printf("\n\t\t\tAND YOU NEED TO SCORE MINIMUM 50 POINTS\n\n");
+	char a1,a2,a3,a4,a5;
+	int po=0;
+	printf("\n\t\t\tQ1. \"ASHES\" IS THE TERM ASSOCIATED WITH WHICH OF THE FOLLOWING SPORTS??\n");
+	printf("\n\t\t\tA. CRICKET \t B.BASKERBALL\n");
+	printf("\n\t\t\tC. FOOTBALL\t D.HOCKEY\n");
+	A
+	F
+	scanf("%c",&a1);
+	if(a1=='A'||a1=='a')
+	{
+		C
+		pt=pt+15;
+		po=po+15;
+	}
+	else
+		printf("\t\t\tOPPS!!WRONG ANSWER..OPTION 'A' IS THE CORRECT ANSWER\n\n");
+	printf("\n\t\t\tQ2.WHO HAS BEEN APPOINTED AS THE CAPTAIN OF INDIAN FOOTBALL TEAM FOR THE INTERNATIONAL FRIENDLY MATCH AGAINST CHINA?\n");
+	printf("\n\t\t\tA. PRITAM KOTAL \t B. SANDESH JHINGAN\n");
+	printf("\n\t\t\tC. PRONAY HALDER\t D. C.K.VINEETH\n");
+	A
+	F
+	scanf("%c",&a2);
+	if(a2=='B'||a1=='b')
+	{
+		C
+		pt=pt+15;
+		po=po+15;
+	}
+	else
+		printf("\t\t\tOPPS!!WRONG ANSWER..OPTION 'B' IS THE CORRECT ANSWER\n\n");
+	printf("\n\t\t\tQ3.WHICH TEAM WON THE 2018 SULTAN OF JOHOR CUP?\n");
+	printf("\n\t\t\tA. INDIA        \t B. AUSTRALIA\n");
+	printf("\n\t\t\tC. GREAT BRITAIN\t D. NONE OF THE ABOVE\n");
+	A
+	F
+	scanf("%c",&a3);
+	if(a3=='C'||a3=='c')
+	{
+		C
+		pt=pt+15;
+		po=po+15;
+	}
+	else
+		printf("\t\t\tOPPS!!WRONG ANSWER..OPTION 'C' IS THE CORRECT ANSWER\n\n");
+	printf("\n\t\t\tQ4.HARVINDER SINGH WON WHICH MEDAL IN ARCHERY IN ASIAN PARA GAME?\n");
+	printf("\n\t\t\tA. GOLD  \t B. BRONZE\n");
+	printf("\n\t\t\tC. SILVER\t D. NONE OF THE ABOVE\n");
+    A
+	F
+    scanf("%c",&a4);
+	if(a4=='A'||a4=='a')
+	{
+		C
+		pt=pt+15;
+		po=po+15;
+	}
+	else
+		printf("\t\t\tOPPS!!WRONG ANSWER..OPTION 'A IS THE CORRECT ANSWER\n\n");
+	printf("\n\t\t\tQ5.WHICH COUNTRY WON THE U19 ASIAN CUP 2018 TITLE\n");
+	printf("\n\t\t\tA. HONG KONG\t B. PAKISTAN\n");
+	printf("\n\t\t\tC. INDIA    \t D. SRI LANKA\n");
+	A
+	F
+	scanf("%c",&a5);
+	if(a5=='C'||a5=='c')
+	{
+		C
+		pt=pt+15;
+		po=po+15;
+	}
+	else
+		printf("\t\t\tOPPS!!WRONG ANSWER..OPTION 'C' IS THE CORRECT ANSWER\n\n");
+	printf("\n\n\t\t\tYOU HAVE COMPLETED 3RD ROUND OF SPORTS...\n");
+	printf("\t\t\tYOUR TOTAL POINT FOR THIS ROUND IS= %d\n",po);
+	printf("\t\t\tYOUR TOTAL POINT IS= %d\n",pt);
+	if(po<50)
+		printf("\t\t\tYOU SCORED VERY LESS POINTS IN THIS ROUND!!!\n");
+	else
+		printf("\t\t\tGOOD!!YOU SCORED HIGH\n");
+	printf("\t\t\tYOU HAVE COMPLETED YOUR QUIZ\n");
+	printf("\t\t\tTHANK YOU FOR PARTICIPATING!!!!");
+}
+void spr2(int pt)
+{
+ 	printf("\n\n\n\t\t\tWELCOME TO 2ND ROUND!!!!!\n");
+	printf("\n\t\t\tHERE EACH QUESTION CARRIES 10 POINTS");
+	printf("\n\t\t\tAND YOU NEED TO SCORE MINIMUM 15 POINTS");
+	printf("\n\t\t\tTO QUALIFY TO 3RD ROUND\n");
+	printf("\n\t\t\tLET'S START\n\n");
+    char a1,a2,a3;
+	int po=0;
+	printf("\n\t\t\tQ1.WHERE DID MS DHONI MAKE HIS ODI DEBUT??\n");
+	printf("\n\t\t\tA. HYDERABAD  \t B. DHAKA\n");
+	printf("\n\t\t\tC. CHIITTAGONG\t D. VISHAKHAPATNAM\n");
+	A
+	F
+	scanf("%c",&a1);
+	if(a1=='C'||a1=='c')
+	{
+		C
+		pt=pt+10;
+		po=po+10;
+	}
+	else
+		printf("\t\t\tOPPS!!WRONG ANSWER..OPTION 'C' IS THE CORRECT ANSWER\n\n");
+	printf("\n\t\t\tQ2.WHO WAS THE FIRST PRESIDENT OF BCCI??\n");
+	printf("\n\t\t\tA. DR.M.S.V.ANANDA \t B. SIKHANDAR KHAN\n");
+	printf("\n\t\t\tC. R.E.GRANT GOVAN \t D. ANTHONY S.D.MELLO\n");
+	A
+	F
+	scanf("%c",&a2);
+	if(a2=='C'||a1=='c')
+	{
+		C
+		pt=pt+10;
+		po=po+10;
+	}
+	else
+		printf("\t\t\tOPPS!!WRONG ANSWER..OPTION 'C' IS THE CORRECT ANSWER\n\n");
+	printf("\n\t\t\tQ3.THE INDIAN FOOTBALL TEAM MADE ITS FIRST APPERANCE AT OLYMPICS?\n");
+	printf("\n\t\t\tA. 1936\t B. 1956\n");
+	printf("\n\t\t\tC. 1952\t D. 1948\n");
+	A
+	F
+	scanf("%c",&a3);
+	if(a3=='D'||a3=='d')
+	{
+		C
+		pt=pt+10;
+		po=po+10;
+	}
+	else
+		printf("\t\t\tOPPS!!WRONG ANSWER..OPTION 'D' IS THE CORRECT ANSWER\n\n");
+	printf("\n\n\t\t\tYOU HAVE COMPLETED 2ND ROUND OF SPORTS...\n");
+	printf("\t\t\tYOUR TOTAL POINT FOR THIS ROUND IS= %d\n",po);
+	printf("\t\t\tYOUR TOTAL POINT IS= %d\n",pt);
+	if(po<15)
+		printf("\t\t\tSORRY!!YOU ARE DISQUALIFIED");
+	else
+	{
+		printf("\t\t\tCONGRATS!!YOU ARE QUALIFIED FOR THE THIRD ROUND");
+		spr3(pt);
+	}
+}
+void spr1()
+{
+    printf("\n\n\n\t\t\tWELCOME TO 1ST ROUND!!!!!\n");
+	printf("\n\t\t\tHERE EACH QUESTION CARRIES 5 POINTS");
+	printf("\n\t\t\tAND YOU NEED TO SCORE MINIMUM 10 POINTS");
+	printf("\n\t\t\tTO QUALIFY TO 2ND ROUND\n");
+    char a1,a2,a3,a4;
+	int pt=0;
+	printf("\n\t\t\tQ1.WHICH WAS THE 1ST NON TEST PLAYING COUNTRY TO BEAT INDIA IN AN INTERNATIONAL MATCH??");
+	printf("\n\t\t\tA. CANADA   \t B. ZIMBABWE\n");
+	printf("\n\t\t\tC. SRI LANKA\t D.EAST AFRICA\n");
+	A
+	F
+    scanf("%c",&a1);
+	if(a1=='C'||a1=='c')
+	{
+		C
+		pt=pt+5;
+	}
+	else
+		printf("\t\t\tOPPS!!WRONG ANSWER..OPTION 'C' IS THE CORRECT ANSWER\n\n");
+	printf("\n\t\t\tQ2.WHO IS THE FIRST INDIAN WOMEAN TO WIN AN ASIAN GAMES GOLD IN 400M RUN?\n");
+	printf("\n\t\t\tA. M.L.VALSAMMA   \t B. P.T.USHA\n");
+	printf("\n\t\t\tC. KAMALJIT SANDHU\t D. K.MALLESHWARI\n");
+	A
+	F
+	scanf("%c",&a2);
+	if(a2=='B'||a1=='b')
+	{
+		C
+		pt=pt+5;
+	}
+	else
+		printf("\t\t\tOPPS!!WRONG ANSWER..OPTION 'B' IS THE CORRECT ANSWER\n\n");
+	printf("\n\t\t\tQ3.WITH WHICH GAME DOES DAVIS CUP IS ASSOCIATED?\n");
+	printf("\n\t\t\tA. LAWN TENNIS\t B.TABLE TENNIS\n");
+	printf("\n\t\t\tC. HOCKEY     \t D. POLO\n");
+	A
+	F
+	scanf("%c",&a3);
+	if(a3=='A'||a3=='a')
+	{
+		C
+		pt=pt+5;
+	}
+	else
+		printf("\t\t\tOPPS!!WRONG ANSWER..OPTION 'A' IS THE CORRECT ANSWER\n\n");
+	printf("\n\t\t\tQ4.THE NAME KUNJARANI DEVI IS ASSOCIATED WITH?\n");
+	printf("\n\t\t\tA. TARGET SHOOTING\t B.WEIGHT LIFTING\n");
+	printf("\n\t\t\tC. ATHLETICS      \t D.SWIMMING\n");
+	A
+	F
+	scanf("%c",&a4);
+	if(a4=='B'||a4=='b')
+	{
+		printf("\t\t\tCORRECT ANSWER\n");
+		pt=pt+5;
+	}
+	else
+		printf("\t\t\tOPPS!!WRONG ANSWER..OPTION 'B' IS THE CORRECT ANSWER\n\n");
+	printf("\n\n\t\t\tYOU HAVE COMPLETED ROUND 1 OF SPORTS...\n");
+	printf("\t\t\tYOUR TOTAL POINT FOR THIS ROUND IS= %d\n",pt);
+	printf("\t\t\tYOUR TOTAL POINT IS= %d\n",pt);
+	if(pt<10)
+		printf("\t\t\tSORRY!!YOU ARE DISQUALIFIED");
+	else
+	{
+		printf("\t\t\tCONGRATS!!YOU ARE QUALIFIED FOR THE 2ND ROUND");
+		spr2(pt);
+	}
+}
+void str3(int pt)
+{
+	printf("\n\n\n\t\t\tWELCOME TO 3RD ROUND!!!!!\n");
+	printf("\n\t\t\tHERE EACH QUESTION CARRIES 15 POINTS\n\n");
+	char a1,a2,a3,a4,a5;
+	int po=0;
+	printf("\n\t\t\tQ1.IN WHICH DISEASE OF PLANT STEM ROT AT SOIL LINE WITH BROWN TO RED LENSIONS??\n");
+	printf("\n\t\t\tA. ANGULAR LEAF SPOT\t B.BACTERIAL BLIGHT\n");
+	printf("\n\t\t\tC. RHIZOCTONIA      \t D.BACTERIAL SPOT\n");
+	A
+	F
+	scanf("%c",&a1);
+	if(a1=='C'||a1=='c')
+	{
+		C
+		pt=pt+15;
+		po=po+15;
+	}
+	else
+		printf("\t\t\tOPPS!!WRONG ANSWER..OPTION 'C' IS THE CORRECT ANSWER\n\n");
+	printf("\n\t\t\tQ2.THE SOLUTION OF WHICH ONE OF THE FOLLOWING WILL CONDUCT ELECTRICITY?\n");
+	printf("\n\t\t\tA. CCl4 \t B.HCl\n");
+	printf("\n\t\t\tC. CACl2\t D.CH3Cl\n");
+	A
+	F
+	scanf("%c",&a2);
+	if(a2=='B'||a1=='b')
+	{
+		C
+		pt=pt+15;
+		po=po+15;
+	}
+	else
+		printf("\t\t\tOPPS!!WRONG ANSWER..OPTION 'B' IS THE CORRECT ANSWER\n\n");
+	printf("\n\t\t\tQ3.NAME THE 1ST MISSION OF NASA IN WHICH A SPACECRAFT WAS REUSED??\n");
+	printf("\n\t\t\tA. APOLLO-SOYUZ \t B. SKYLAB\n");
+	printf("\n\t\t\tC. SPACE SHUTTLE\t D. NONE OF THE ABOVE\n");
+	A
+	F
+	scanf("%c",&a3);
+	if(a3=='C'||a3=='c')
+	{
+		C
+		pt=pt+15;
+		po=po+15;
+	}
+	else
+		printf("\t\t\tOPPS!!WRONG ANSWER..OPTION 'C' IS THE CORRECT ANSWER\n\n");
+	printf("\n\t\t\tQ4.NAME THE FIRST SATELLITE WHICH WAS LAUNCHED SPECIFICALLY FOR THE PURPOSE OF X-RAY ASTRONOMY.\n");
+	printf("\n\t\t\tA. UHURU \t B. CLEMENTINE\n");
+	printf("\n\t\t\tC. HINODE\t D. WMAP\n");
+	A
+	F
+	scanf("%c",&a4);
+	if(a4=='A'||a4=='a')
+	{
+		C
+		pt=pt+15;
+		po=po+15;
+	}
+	else
+		printf("\t\t\tOPPS!!WRONG ANSWER..OPTION 'A IS THE CORRECT ANSWER\n\n");
+	printf("\n\t\t\tQ5.ARTICIAL RETINAS TECHNOLOGY IS RELATED TO:\n");
+	printf("\n\t\t\tA. MOUTH \t B. BRAIN\n");
+	printf("\n\t\t\tC. EYE   \t D. KIDNEY\n");
+	A
+	F
+	scanf("%c",&a5);
+	if(a5=='C'||a5=='c')
+	{
+		C
+		pt=pt+15;
+		po=po+15;
+	}
+	else
+		printf("\t\t\tOPPS!!WRONG ANSWER..OPTION 'C' IS THE CORRECT ANSWER\n\n");
+	printf("\n\n\t\t\tYOU HAVE COMPLETED 3RD ROUND OF SCIENCE...\n");
+	printf("\t\t\tYOUR TOTAL POINT FOR THIS ROUND IS= %d\n",po);
+	printf("\t\t\tYOUR TOTAL POINT IS= %d\n",pt);
+	if(po<50)
+		printf("\t\t\tYOU SCORED VERY LESS POINTS IN THIS ROUND!!!\n");
+	else
+		printf("\t\t\tGOOD!!YOU SCORED HIGH\n");
+	printf("\t\t\tYOU HAVE COMPLETED YOUR QUIZ\n");
+	printf("\t\t\tTHANK YOU FOR PARTICIPATING!!!!");
+}
+void str2(int pt)
+{
+
+	printf("\n\n\n\t\t\tWELCOME TO 2ND ROUND!!!!!\n");
+	printf("\n\t\t\tHERE EACH QUESTION CARRIES 10 POINTS");
+	printf("\n\t\t\tAND YOU NEED TO SCORE MINIMUM 15 POINTS");
+	printf("\n\t\t\tTO QUALIFY TO 3RD ROUND\n");
+	printf("\n\t\t\tLET'S START\n\n");
+	char a1,a2,a3;
+	int po=0;
+	printf("\n\t\t\tQ1.WHICH OF THE PARTICULAR RADIATION CAN DAMAGE DNA??\n");
+	printf("\n\t\t\tA. ATOMIC          \t B.INFRARED\n");
+	printf("\n\t\t\tC. ELECTROMAGNETIC \t D.MAGNETIC\n");
+	A
+	F
+	scanf("%c",&a1);
+	if(a1=='C'||a1=='c')
+	{
+		C
+		pt=pt+10;
+		po=po+10;
+	}
+	else
+		printf("\t\t\tOPPS!!WRONG ANSWER..OPTION 'C' IS THE CORRECT ANSWER\n\n");
+	printf("\n\t\t\tQ2.WHICH ONE OF THE FOLLOWING REFLECTS BACK MORE SUNLIGHT AS COMPARED TO OTHER THREE?\n");
+	printf("\n\t\t\tA. SAND DESERT                  \t B.PADDY CROP LAND\n");
+	printf("\n\t\t\tC. LAND COVERED WITH FRESH SNOW \t D.PRAIRIE LAND\n");
+	A
+	F
+	scanf("%c",&a2);
+	if(a2=='C'||a1=='c')
+	{
+		C
+		pt=pt+10;
+		po=po+10;
+	}
+	else
+		printf("\t\t\tOPPS!!WRONG ANSWER..OPTION 'C' IS THE CORRECT ANSWER\n\n");
+	printf("\n\t\t\tQ3.WHICH OF THE FOLLOWING IS NOT AN IONIC COMPOUND?\n");
+	printf("\n\t\t\tA. LITHIUM CHLORIDE\t B. AMMONIUM CHLORIDE\n");
+	printf("\n\t\t\tC. CALCIUM CHLORIDE\t D. CARBON TETRACHLORIDE\n");
+	A
+	F
+	scanf("%c",&a3);
+	if(a3=='D'||a3=='d')
+	{
+		printf("\t\t\tCORRECT ANSWER\n");
+		pt=pt+10;
+		po=po+10;
+	}
+	else
+		printf("\t\t\tOPPS!!WRONG ANSWER..OPTION 'D' IS THE CORRECT ANSWER\n\n");
+	printf("\n\n\t\t\tYOU HAVE COMPLETED 2ND ROUND OF SCIENCE...\n");
+	printf("\t\t\tYOUR TOTAL POINT FOR THIS ROUND IS= %d\n",po);
+	printf("\t\t\tYOUR TOTAL POINT IS= %d\n",pt);
+	if(po<15)
+		printf("\t\t\tSORRY!!YOU ARE DISQUALIFIED");
+	else
+	{
+		printf("\t\t\tCONGRATS!!YOU ARE QUALIFIED FOR THE THIRD ROUND");
+		str3(pt);
+	}
+}
+void str1()
+{
+	printf("\n\n\n\t\t\tWELCOME TO 1ST ROUND!!!!!\n");
+	printf("\n\t\t\tHERE EACH QUESTION CARRIES 5 POINTS");
+	printf("\n\t\t\tAND YOU NEED TO SCORE MINIMUM 10 POINTS");
+	printf("\n\t\t\tTO QUALIFY TO 2ND ROUND\n");
+	char a1,a2,a3,a4;
+	int pt=0;
+	printf("\n\t\t\tQ1.WHICH IS THE LIGHEST EXISTING METAL?\n");
+	printf("\n\t\t\tA. GOLD      \t B.ZINC\n");
+	printf("\n\t\t\tC. ALUMUNIAM \t D.COPPER\n");
+	A
+	F
+	scanf("%c",&a1);
+	if(a1=='C'||a1=='c')
+	{
+		C
+		pt=pt+5;
+	}
+	else
+		printf("\t\t\tOPPS!!WRONG ANSWER..OPTION 'C' IS THE CORRECT ANSWER\n\n");
+	printf("\n\t\t\tQ2.TWO BROTHERS INVENTED THE HOT AIR BALLON.WHAT WAS THEIR SURNAME?\n");
+	printf("\n\t\t\tA. WATT     \t B.MONTGOLFIER\n");
+	printf("\n\t\t\tC. FLEMING \t D.SHEPARD\n");
+	A
+	F
+	scanf("%c",&a2);
+	if(a2=='B'||a1=='b')
+	{
+		C
+		pt=pt+5;
+	}
+	else
+		printf("\t\t\tOPPS!!WRONG ANSWER..OPTION 'B' IS THE CORRECT ANSWER\n\n");
+	printf("\n\t\t\tQ3.WHICH UNIT INDICATES THE LIGHT INTENSITY?\n");
+	printf("\n\t\t\tA. CANDELA         \t B.WATTS PER METER SQUARE\n");
+	printf("\n\t\t\tC. METER PER SECOND\t D. DECIBLES\n");
+	A
+	F
+	scanf("%c",&a3);
+	if(a3=='A'||a3=='a')
+	{
+		C
+		pt=pt+5;
+	}
+	else
+		printf("\t\t\tOPPS!!WRONG ANSWER..OPTION 'A' IS THE CORRECT ANSWER\n\n");
+	printf("\n\t\t\tQ4.WHICH GAS IS MOST POPULAR AS LAUGHING GAS?\n");
+	printf("\n\t\t\tA. NITROUS DIOXIDE    \t B.NITROUS OXIDE\n");
+	printf("\n\t\t\tC. NITROGEN DIOXIDE   \t D.NIROGEN OXIDE\n");
+	A
+	F
+	scanf("%c",&a4);
+	if(a4=='B'||a4=='b')
+	{
+		C
+		pt=pt+5;
+	}
+	else
+		printf("\t\t\tOPPS!!WRONG ANSWER..OPTION 'B' IS THE CORRECT ANSWER\n\n");
+	printf("\n\n\t\t\tYOU HAVE COMPLETED ROUND 1 OF SCIENCE...\n");
+	printf("\t\t\tYOUR TOTAL POINT FOR THIS ROUND IS= %d\n",pt);
+	printf("\t\t\tYOUR TOTAL POINT IS= %d\n",pt);
+	if(pt<10)
+		printf("\t\t\tSORRY!!YOU ARE DISQUALIFIED");
+	else
+	{
+		printf("\t\t\tCONGRATS!!YOU ARE QUALIFIED FOR THE SECOND ROUND");
+		str2(pt);
+	}
+}
+void player()
+{
+	char name[20],choice;
+	printf("\n\t\t\tENTER YOUR NAME: ");
+	scanf("%s",name);
+	fflush(stdin);
+	printf("\n\t\t\t WELC0ME TO ROUND 1 OF THE QUIZ\n\n");
+	printf("\n\t\t\tENTER 'S' FOR SCIENCE\n");
+	printf("\n\t\t\tENTER 'T' FOR SPORTS\n");
+	printf("\n\t\t\tENTER 'M' FOR MOVIES\n");
+	printf("\n\t\t\tENTER 'C' FOR COMPUTERS TECHNOLOGIES\n");
+	printf("\n\t\t\tENTER YOUR CHOICE: ");
+	scanf("%c",&choice);
+	switch(choice)
+	{
+		case'S':
+		case's':str1();
+		break;
+		case'T':
+		case't':spr1();
+		break;
+		case'M':
+		case'm':mr1();
+		break;
+		case'C':
+		case'c':cr1();
+		default:printf("WRONG INPUT");
+	}
+}
+int main()
+{
+	printf("\n\t\t\tWELCOME TO QUIZ\n");
+	printf("\n\t\t\t-------------------\n");
+	printf("\n\t\t\tHERE ARE SOME RULES OF THE QUIZ:\n\n");
+	printf("\n\t\t\tRULE 1: YOU NEED TO SELECT THE TOPIC ");
+	printf("FOR WHICH YOU WANT TO PLAY THE QUIZ\n");
+	printf("\n\t\t\tRULE 2:THERE WILL BE THREE ROUNDS IN THE QUIZ.\n");
+	printf("\n\t\t\tRULE 3:YOU WILL BE ASKED 4 QUESTIONS IN 1ST ROUND.\n");
+	printf("\n\t\t\tRULE 4:YOU WILL BE ASKED 3 QUESTIONS IN 2ND ROUND.\n");
+	printf("\n\t\t\tRULE 5:YOU WILL BE ASKED 5 QUESTIONS IN 3RD ROUND.\n");
+	printf("\n\t\t\tRULE 6:IN 1ST ROUND YOU NEED TO SCORE MINIMUM 10 POINTS  THEN YOU WILL BE QUALIFIED FOR 2ND ROUND.\n");
+	printf("\n\t\t\tRULE 7:IN 2ND ROUND YOU NEED TO SCORE MINIMUM 15 POINTS THEN YOU WILL BE QUALIFIED FOR 3RD ROUND.\n");
+	printf("\n\t\t\tRULE 8:YOU CANNOT LEAVE THE GAME IN BETWEEN \n");
+	printf("\n\t\t\tRULE 3:YOU CANNOT CHANGE THE ANSWER ONCE ENTERED.\n\n");
+	printf("\n\t\t\t ALL THE BEST\n");
+	printf("\t\t\tENTER S TO START THE GAME\n");
+	printf("\t\t\tENTER Q TO EXIT THE GAME\n");
+	printf("\t\t\tENTER YOUR CHOICE:  ");
+	char ch;
+	scanf("%c",&ch);
+	switch(ch)
+	{
+		case'S':
+		case's':player();
+		break;
+		case'Q':
+		case'q':exit(1);
+	}
+    return 1;
+}
